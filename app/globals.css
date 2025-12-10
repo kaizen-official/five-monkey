@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Redaction';
+    src: url('/Fonts/Redaction_10-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFF2E6;
+    overflow-x: hidden;
+}
+.fontchange{
+    font-family: 'Redaction', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FFF2E6;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7E4300;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5e3200;
+}

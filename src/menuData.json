@@ -1,0 +1,750 @@
+{
+  "menu": {
+    "allDayBreakfast": {
+      "title": "All Day Breakfast",
+      "description": "Healthy and Delicious meals to start your day with energy.",
+      "items": [
+        {
+          "name": "Mushroom Cheese Omelette",
+          "price": 250
+        },
+        {
+          "name": "Chicken Ham & Sausage Omelette",
+          "price": 275
+        },
+        {
+          "name": "Chicken Sausage & Spaghetti Omelette",
+          "price": 445
+        },
+        {
+          "name": "Scrambled Eggs",
+          "price": 250
+        },
+        {
+          "name": "French Toast",
+          "price": 275
+        },
+        {
+          "name": "Avocado Toast",
+          "price": 325
+        }
+      ]
+    },
+    "specialties": {
+      "panGrilledChickenBreast": {
+        "name": "Pan-Grilled Chicken Breast",
+        "description": "Tender, juicy chicken breast, pan-grilled to perfection with a golden sear and seasoned with our signature herb blend. Served hot off the grill, it's crisp on the outside, succulent on the inside, and packed with flavor in every bite. Pair it with your choice of sides for a wholesome, protein-rich meal that's both healthy and satisfying."
+      },
+      "freshBeanCoffee": {
+        "name": "Fresh Bean Coffee",
+        "description": "Brewed from premium, freshly ground beans, our coffee is bold, aromatic, and full of character. Each cup is crafted with care—from bean to brew—delivering rich flavor, a smooth finish, and just the right kick to brighten your day. Whether you like it black, creamy, or iced, our fresh bean coffee is your daily dose of comfort and energy."
+      },
+      "appleSummerSlawSalad": {
+        "name": "Delicious Apple Summer Slaw Salads",
+        "description": "A refreshing twist on a classic! Our Apple Summer Slaw combines crisp green apples, shredded cabbage, and carrots, tossed in a light, zesty dressing with a hint of honey and lemon. It's crunchy, tangy, and just the right touch of sweet—perfect as a side, a light meal, or a sunny day pick-me-up."
+      },
+      "summersSpecial": {
+        "name": "Summers Special",
+        "description": "Cool down and chill out with our hand-crafted Summer Special Drinks! From fruity refreshers to creamy chillers, each drink is made to beat the heat and boost your mood. Whether you're craving a zesty citrus cooler, a tropical smoothie, or an iced coffee with flair—we've got your perfect summer sip. Fresh, vibrant, and made with love—just what your sunny day ordered."
+      }
+    },
+    "soups": {
+      "title": "Soups",
+      "description": "The address farther six hearted hundred towards husband.",
+      "items": [
+        {
+          "name": "Tuscan Tomato Soup",
+          "price": 225,
+          "description": "With Tube Pasta, White Beans, Big Cheese Crouton And Olive Oil.",
+          "addChicken": true
+        },
+        {
+          "name": "Pestrone",
+          "price": "245/295",
+          "description": "Diced Vegetable Cooked In Basil Pesto And Cream Scented With Parmesan.",
+          "addChicken": true
+        },
+        {
+          "name": "Cream of Mushroom",
+          "price": "225/275",
+          "description": "Thyme Infused Broths Finished With Cream.",
+          "addChicken": true
+        }
+      ]
+    },
+    "salads": {
+      "title": "Salads",
+      "items": [
+        {
+          "name": "Fattoush",
+          "price": 295,
+          "description": "Diced Of Tomato, Cucumber, Bell Peppers, Lettuce Tossed With Feta Cheese, Sumac Dusted Pita Crisps"
+        },
+        {
+          "name": "Caesar Salad",
+          "price": "315/345",
+          "description": "Lettuce, Cherry Tomato, Olives, Parmesan Shavings, Bread Croutons.",
+          "addChicken": true
+        },
+        {
+          "name": "Fetamelon",
+          "price": 325,
+          "description": "Iceberg, Watermelon, Olives, Feta Cheese, Walnuts, Pesto And Bell Peppers In Lemon Vinaigrette Dressing"
+        },
+        {
+          "name": "Apple Summer Slaw Salad",
+          "price": 325,
+          "description": "Apple Julienne, Orange Chunks, Assorted Lettuce, Basil, Black Olives, Sundried Tomatos, Walnuts In Balsamic Dressing"
+        },
+        {
+          "name": "Quinoa",
+          "price": 295,
+          "description": "Served With chick-peas, Dices Of Tomato, Cucumber, Bell-Peppers, Onion and Lemon Dressing"
+        },
+        {
+          "name": "Chicken Pasta Salad",
+          "price": "315/345",
+          "description": "Lettuce, Cherry Tomatos, Penne Pasta, Olives, Parmesan Shavings, Dressed In Mayonnaise"
+        }
+      ]
+    },
+    "garlicBreads": {
+      "title": "Garlic Breads",
+      "items": [
+        {
+          "name": "Classic Garlic Bread",
+          "price": 275,
+          "description": "French Baguette, Garlic Bread"
+        },
+        {
+          "name": "Cheesy Mushroom Garlic Bread",
+          "price": 295,
+          "description": "Diced Vegetable Cooked In Basil Pesto And Fresh Cream Scented With Parmesan.",
+          "addChicken": true
+        },
+        {
+          "name": "Chicken Tikka Garlic Bread",
+          "price": 325,
+          "description": "Cheddar, Mozzarella, Chicken Tikka"
+        }
+      ]
+    },
+    "potatoLover": {
+      "title": "Potato Lover",
+      "items": [
+        {
+          "name": "House Fries",
+          "price": 215,
+          "description": "French Fries/Potato Wedges/Peri Peri Fries"
+        },
+        {
+          "name": "Amsterdam Fries",
+          "price": 235,
+          "description": "V-Crispers Fries Served With In House Dips"
+        },
+        {
+          "name": "Amsterdam Cheesy Fries",
+          "price": 325,
+          "description": "Cheesy V-Crispers With Chipotle Sauce.",
+          "addChicken": true
+        }
+      ]
+    },
+    "smallBites": {
+      "title": "Small Bites",
+      "items": [
+        {
+          "name": "Fully Loaded Nachos",
+          "price": "325/345",
+          "description": "Nachos Topped With Salsa, Melted Cheese And Sour Cream.",
+          "addChicken": true
+        },
+        {
+          "name": "Tomato Basil Bruschetta",
+          "price": 295,
+          "description": "Tomato Chunks, Basil, Garlic, Parmesan"
+        },
+        {
+          "name": "Cheesy Corn Jalapeno Cigars",
+          "price": 325,
+          "description": "Corn, Cheese And Jalapenos Rolls Fried Served With Mint Mayo"
+        },
+        {
+          "name": "Quesadillas",
+          "price": "345/375",
+          "description": "Gram Flour Tortilla Stuffed With Three Cheese, Refried Beans And Served With Pico De Gallo And Salsa.",
+          "addChicken": true
+        },
+        {
+          "name": "Beiruti Lebanese Platter",
+          "price": 435,
+          "description": "Hummus, Tzatziki, Fattoush, Falafel, Pickle, Feta Along With Olives Served With Sumac Pita Bread"
+        },
+        {
+          "name": "Keema Pao",
+          "price": 425,
+          "description": "Bombay Style Chicken Keema Served With Buttered Masala Pao"
+        },
+        {
+          "name": "Chicken Parmesan",
+          "price": 525,
+          "description": "Panko crumbed chicken breast topped with tomato sauce and cheese, Gratinated and served with chipotle and fries"
+        },
+        {
+          "name": "Angry Chicken Wings",
+          "price": 425,
+          "description": "Chicken wings spiced up and tossed in spicy sauce"
+        },
+        {
+          "name": "Fish and Chips",
+          "price": 575,
+          "description": "Beer Marinated Crumb Fried Fish Fingers, Served With English Tarter & Grainy Mustard Mayo"
+        },
+        {
+          "name": "Onion Rings",
+          "price": 245,
+          "description": "British Appetizer, Onion Ring Dipped In Breadcrumbs And Deep Fried"
+        }
+      ]
+    },
+    "kulchaBao": {
+      "title": "Kulcha Bao",
+      "items": [
+        {
+          "name": "Cottage Cheese Kulcha Bao",
+          "price": 455,
+          "description": "Mexican Cottage Cheese Along With In House Sauce Served In Soft Kulcha Bao"
+        },
+        {
+          "name": "Mexican Chicken Kulcha Bao",
+          "price": 515,
+          "description": "Handful Filling Of Mexican Chicken Along With Crunch Lettuce Served In Soft Kulcha Bread"
+        }
+      ]
+    },
+    "sides": {
+      "title": "Sides",
+      "items": [
+        {
+          "name": "Grilled Veggies",
+          "price": 275
+        },
+        {
+          "name": "Nachos and Salsa",
+          "price": 275
+        },
+        {
+          "name": "Hummus And Pita",
+          "price": 275
+        },
+        {
+          "name": "Mashed Potato",
+          "price": 225
+        },
+        {
+          "name": "Sauteed Mushrooms",
+          "price": 225
+        },
+        {
+          "name": "Grilled Chicken",
+          "price": 275
+        }
+      ]
+    },
+    "pizzas": {
+      "title": "Pizzas",
+      "items": [
+        {
+          "name": "Margherita",
+          "price": 395,
+          "description": "Mozzarella, Basil"
+        },
+        {
+          "name": "Exotica",
+          "price": 425,
+          "description": "Baby Corn, Jalapeno, Sundried Tomatoes, Olives, Mint Sauce"
+        },
+        {
+          "name": "Peppy Paneer Tikka",
+          "price": 475,
+          "description": "Paneer Tikka, Onions, Peppers, Cilantro, Tandoori Sauce"
+        },
+        {
+          "name": "Mushroom Mania",
+          "price": 475,
+          "description": "Mushrooms, Gherkins, Jalapenos, Green Olives, Caramelised Onions, Chipotle Sauce"
+        },
+        {
+          "name": "Hawaiian Chicken",
+          "price": 525,
+          "description": "Grilled Chicken, Olives, Pineapple, Onions, Jalapenos, Chipotle Sauce"
+        },
+        {
+          "name": "Desi Chicken Tikka",
+          "price": 525,
+          "description": "Spiced Chicken Tikka, Onions, Bell Peppers, Tandoori Sauce"
+        },
+        {
+          "name": "Chicken Basilica",
+          "price": 525,
+          "description": "Pesto Grilled Chicken, Double Cheese, Sundried Tomato, Olives, Onions, Mint Sauce"
+        },
+        {
+          "name": "Keema Chicken Wala",
+          "price": 525,
+          "description": "Tomato Gravy Cooked Chicken Mince, Coriander, Slit Green Chilli, Cheese Sauce"
+        }
+      ]
+    },
+    "pasta": {
+      "title": "Pasta (Penne/Spaghetti)",
+      "items": [
+        {
+          "name": "Marinara",
+          "price": "395/445",
+          "description": "Pulpy Sauce Of Fresh Tomatoes.",
+          "addChicken": true
+        },
+        {
+          "name": "Alfredo",
+          "price": "395/445",
+          "description": "Creamy White Sauce With Thyme And Basil.",
+          "addChicken": true
+        },
+        {
+          "name": "Rose",
+          "price": "395/445",
+          "description": "Creamy White Sauce Mixed With Tomato Sauce.",
+          "addChicken": true
+        },
+        {
+          "name": "Pesto",
+          "price": "395/445",
+          "description": "Home Made Sauce Of Fresh Basil Pesto And Cream.",
+          "addChicken": true
+        },
+        {
+          "name": "Al Funghi",
+          "price": "425/465",
+          "description": "Mushrooms And Creamy Basil Pesto Sauce.",
+          "addChicken": true
+        },
+        {
+          "name": "Lasagna",
+          "price": "425/455",
+          "description": "Creamed Vegetable Layered With Fresh Pasta Leaves Baked With Mozzarella.",
+          "addChicken": true
+        },
+        {
+          "name": "Aglio E Olio",
+          "price": "375/425",
+          "description": "Olive Oil, Garlic, Herbs And Parmesan.",
+          "addChicken": true
+        }
+      ]
+    },
+    "sandwiches": {
+      "title": "Sandwiches",
+      "items": [
+        {
+          "name": "Insalata",
+          "price": 315,
+          "description": "Tomato, Cheese And Basil Pesto"
+        },
+        {
+          "name": "Popeye Power",
+          "price": 345,
+          "description": "Corn, Spinach And Cheese"
+        },
+        {
+          "name": "Cajun Spiced Paneer",
+          "price": 345,
+          "description": "Cottage Cheese Rubbed With Cajun Spices And Grilled With Caramelized Onion And Roasted Peppers"
+        },
+        {
+          "name": "Mushroom Melt",
+          "price": 345,
+          "description": "Grilled Mushrooms, Jalapenos, Cheese, Mustard"
+        },
+        {
+          "name": "Chicken Tandoor Wich",
+          "price": 375,
+          "description": "Chicken Tikka, Mint Mayonnaise, Cheese, Gherkins And Bell Peppers"
+        },
+        {
+          "name": "Pesto Chicken Melt",
+          "price": 375,
+          "description": "Pesto Marinated Grilled Chicken Cubes, Cheese, Olives"
+        },
+        {
+          "name": "Chicken and Cheese Melt",
+          "price": 375,
+          "description": "Chicken Salami, Cheese, Jalapenos, Mustard"
+        },
+        {
+          "name": "Chicken Peri Peri Sandwich",
+          "price": 375,
+          "description": "Peri Peri Chicken, Char Grilled Peppers, Cheddar Cheese And Onions"
+        }
+      ]
+    },
+    "wraps": {
+      "title": "Wraps",
+      "items": [
+        {
+          "name": "Aloo Tikki Wrap",
+          "price": 275,
+          "description": "Crispy Aloo Tikki, Iceberg Lettuce, Chipotle, Onions, Cucumber And Tomato In Tortilla Wrap"
+        },
+        {
+          "name": "Crispy Paneer Wrap",
+          "price": 295,
+          "description": "Crispy Paneer Patty, Lettuce, Chipotle, Onions, Cucumber And Tomato In Tortilla Sheet"
+        },
+        {
+          "name": "Spicy Chicken Wrap",
+          "price": 325,
+          "description": "Chicken Patty, Lettuce, Tomato, Onions And Cucumber In Tortilla Sheet"
+        },
+        {
+          "name": "Eggy Egg Wrap",
+          "price": "295/355",
+          "description": "Eggs, Lettuce, Tomato, Onions In Tortilla Sheet.",
+          "addChicken": true
+        }
+      ]
+    },
+    "burgers": {
+      "title": "Burgers",
+      "items": [
+        {
+          "name": "Paneer Streaker",
+          "price": 375,
+          "description": "Crumbed Paneer Patty, Jalapenos, Tandoori Sauce, Onions And Tomatoes"
+        },
+        {
+          "name": "Acapulco Beach",
+          "price": 345,
+          "description": "Spicy Mexican Style Vegetable Patty, Picked Baby Cucumber, Lettuce, Cheddar & Salsa"
+        },
+        {
+          "name": "Chicken Streaker",
+          "price": 375,
+          "description": "Chicken Patty, Cheese, Gherkin & Caramelized Onions"
+        },
+        {
+          "name": "Lamburger-Gini",
+          "price": 425,
+          "description": "Mutton Patty, Jalapeno Mustard Sauce, Iceberg And Cheddar"
+        },
+        {
+          "name": "Million Dollar Big Daddy Burger",
+          "price": 475,
+          "description": "Double Chicken Patty, House Sauce, Onions, Gherkins And Lettuce"
+        }
+      ]
+    },
+    "bigPlates": {
+      "title": "Big Plates",
+      "items": [
+        {
+          "name": "Mushroom Risotto",
+          "price": 395,
+          "description": "Italian Arborio Rice With Crushed Pepper And Mushroom"
+        },
+        {
+          "name": "Peri Peri Cottage Cheese Steak",
+          "price": 445,
+          "description": "Grilled And Served With Peri Peri Sauce, Garlic Mash And Buttered Veggies"
+        },
+        {
+          "name": "Paneer Piccata",
+          "price": 445,
+          "description": "Crumbed Cottage Cheese Served With Sauteed Vegetables, Potato Mash And Lemon Butter Sauce"
+        },
+        {
+          "name": "Vegetable Stroganoff",
+          "price": 295,
+          "description": "Prime Vegetables Cooked In A Creamy Pesto Sauce Served With Herb Rice"
+        },
+        {
+          "name": "Paneer Shish Tawook",
+          "price": 495,
+          "description": "Paneer Skewered Marinated In The Blend Of Yogurt, Lemon Juice Garlic And Spices, Served With Hummus Pita And Pickles"
+        },
+        {
+          "name": "Pan Grilled Chicken Breast",
+          "price": 475,
+          "description": "Cheese And Spinach Stuffed Chicken Breast Grilled To Perfection And Served With Mashed Potatoes, Buttered Vegetables And Mustard Sauce"
+        },
+        {
+          "name": "Lemon Butter Grilled Fish",
+          "price": 525,
+          "description": "Grilled Fillet Of Sole Served With Sauteed Veggies, Potato Mash And Caper Lemon Butter Sauce"
+        },
+        {
+          "name": "Chicken Shish Tawook",
+          "price": 495,
+          "description": "Chicken Skewered Marinated In The Blend Of Yogurt, Lemon Juice Garlic And Spices, Served With Hummus Pita And Pickles"
+        },
+        {
+          "name": "Chicken Stroganoff",
+          "price": 425,
+          "description": "Prime Chicken Cooked In A Creamy Pesto Sauce Served With Herb Rice"
+        },
+        {
+          "name": "Chicken Risotto",
+          "price": 445,
+          "description": "Italian Arborio Rice With Crushed Pepper, Mushroom And Chicken"
+        }
+      ]
+    }
+  },
+  "drinks": {
+    "coffee": {
+      "title": "Coffee",
+      "description": "Premium coffee blends and espresso-based beverages",
+      "items": [
+        {
+          "name": "Espresso",
+          "price": 90
+        },
+        {
+          "name": "Americano",
+          "price": 100
+        },
+        {
+          "name": "Affogato",
+          "price": 150
+        },
+        {
+          "name": "Classic Cappuccino",
+          "price": 150
+        },
+        {
+          "name": "Tonic Espresso",
+          "price": 175
+        },
+        {
+          "name": "Cortado",
+          "price": 150
+        },
+        {
+          "name": "Flat White",
+          "price": 150
+        },
+        {
+          "name": "Macchiato",
+          "price": 150
+        },
+        {
+          "name": "French Vanilla",
+          "price": 175
+        },
+        {
+          "name": "Mocha",
+          "price": 175
+        },
+        {
+          "name": "French Press",
+          "price": 200
+        }
+      ]
+    },
+    "coldCoffee": {
+      "title": "Cold Coffee",
+      "description": "Refreshing cold coffee beverages and frappes",
+      "items": [
+        {
+          "name": "Classic Cold Coffee",
+          "price": 220
+        },
+        {
+          "name": "Mocha Frappe",
+          "price": 220
+        },
+        {
+          "name": "Hazelnut Frappe",
+          "price": 220
+        },
+        {
+          "name": "Brownie Mocha Frappe",
+          "price": 240
+        }
+      ]
+    },
+    "tea": {
+      "title": "Tea",
+      "description": "Premium tea selection from around the world",
+      "items": [
+        {
+          "name": "Black Tea",
+          "price": 90
+        },
+        {
+          "name": "Earl Grey Tea",
+          "price": 100
+        },
+        {
+          "name": "Green Tea",
+          "price": 150
+        },
+        {
+          "name": "Blue Pea Tea",
+          "price": 150
+        },
+        {
+          "name": "Hibiscus Tea",
+          "price": 150
+        }
+      ]
+    },
+    "coldBeverages": {
+      "title": "Cold Beverages",
+      "description": "Refreshing drinks and sodas",
+      "items": [
+        {
+          "name": "Diet Coke",
+          "price": 90
+        },
+        {
+          "name": "Ginger Ale",
+          "price": 90
+        },
+        {
+          "name": "Soda",
+          "price": 90
+        },
+        {
+          "name": "Fresh Lime Soda",
+          "price": 120
+        },
+        {
+          "name": "Red Bull",
+          "price": 160
+        },
+        {
+          "name": "Beetroot Lemonade",
+          "price": 180
+        },
+        {
+          "name": "Masala Lemonade",
+          "price": 180
+        },
+        {
+          "name": "Lemonana",
+          "price": 200
+        },
+        {
+          "name": "Mojito",
+          "price": 240
+        },
+        {
+          "name": "Green Apple Mojito",
+          "price": 240
+        },
+        {
+          "name": "Blue Ocean Mojito",
+          "price": 240
+        },
+        {
+          "name": "Watermelon & Basil",
+          "price": 240
+        }
+      ]
+    },
+    "somethingHot": {
+      "title": "Something Hot",
+      "description": "Warm and comforting hot beverages",
+      "items": [
+        {
+          "name": "Hot Chocolate",
+          "price": 180
+        },
+        {
+          "name": "Vanilla Latte",
+          "price": 180
+        },
+        {
+          "name": "Hot Chocolate Bubblegum",
+          "price": 180
+        }
+      ]
+    },
+    "shakes": {
+      "title": "Shakes",
+      "description": "Creamy milkshakes and specialty drinks",
+      "items": [
+        {
+          "name": "Vanilla/Strawberry/Chocolate Shake",
+          "price": 180
+        },
+        {
+          "name": "Strawberry Banana Shake",
+          "price": 200
+        },
+        {
+          "name": "Classic Cold Chocolate",
+          "price": 220
+        },
+        {
+          "name": "Death By Chocolate",
+          "price": 220
+        },
+        {
+          "name": "Chocolate Banana",
+          "price": 220
+        },
+        {
+          "name": "Peanut Butter Shake",
+          "price": 240
+        },
+        {
+          "name": "Strawberry Bubblegum",
+          "price": 240
+        },
+        {
+          "name": "Mix Berry Oreo",
+          "price": 240
+        },
+        {
+          "name": "Kitkat Shake",
+          "price": 240
+        }
+      ]
+    }
+  },
+  "desserts": {
+    "desserts": {
+      "title": "Desserts",
+      "description": "Indulgent sweet treats and decadent desserts",
+      "items": [
+        {
+          "name": "Brownie Sizzle",
+          "price": 245,
+          "description": "Sizzling Hot Brownie Served With Vanilla Ice Cream And Chocolate Syrup. {Contains Eggs}"
+        },
+        {
+          "name": "Banoffe Pie",
+          "price": 275,
+          "description": "British Dessert Made With Thick Caramel Sauce, Bananas With Biscuit Base"
+        },
+        {
+          "name": "Chocolate Truffle",
+          "price": 275,
+          "description": "Classic Chocolate Truffle Cake"
+        },
+        {
+          "name": "Tre-Leches",
+          "price": 295,
+          "description": "Sponge Cake Soaked In Three Kinds Of Milk"
+        },
+        {
+          "name": "Waffel-icious",
+          "price": 275,
+          "description": "Choice of Vanilla/Choco Chip/Peanut Butter/Nutella Served With Vanilla Ice Cream"
+        }
+      ]
+    }
+  }
+}
