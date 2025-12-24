@@ -6,7 +6,7 @@ import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 
 export default function Gallery() {
     const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
-    
+
     // Using a more diverse set of images or repeating them for the grid
     const images = [
         { src: "/svg/g1.webp", alt: "Gallery Image 1", span: "col-span-1 md:col-span-2 row-span-2" },
@@ -42,9 +42,9 @@ export default function Gallery() {
         }
     };
 
-    return(
+    return (
         <>
-            <motion.div 
+            <motion.div
                 className="min-h-screen relative py-24 md:py-32 px-4 md:px-8 overflow-hidden bg-[#FFF2E6]"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -57,7 +57,7 @@ export default function Gallery() {
                 </div>
 
                 <div className="relative z-10 max-w-7xl mx-auto">
-                    <motion.div 
+                    <motion.div
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
@@ -67,11 +67,11 @@ export default function Gallery() {
                         <p className="text-gray-600 max-w-2xl mx-auto">A glimpse into our cozy ambiance and culinary creations.</p>
                         <div className="w-24 h-1 bg-[#7E4300] mx-auto mt-6 rounded-full"></div>
                     </motion.div>
-                    
+
                     {/* Masonry-like Grid */}
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[250px]">
                         {images.map((image, index) => (
-                            <motion.div 
+                            <motion.div
                                 key={index}
                                 className={`relative rounded-2xl overflow-hidden cursor-pointer group shadow-lg ${image.span}`}
                                 initial={{ opacity: 0, y: 20 }}
@@ -80,8 +80,8 @@ export default function Gallery() {
                                 onClick={() => openModal(index)}
                                 whileHover={{ y: -5 }}
                             >
-                                <Image 
-                                    src={image.src} 
+                                <Image
+                                    src={image.src}
                                     alt={image.alt}
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -101,16 +101,16 @@ export default function Gallery() {
             {/* Modal Carousel */}
             <AnimatePresence>
                 {selectedImageIndex !== null && (
-                    <motion.div 
-                        className="fixed inset-0 bg-black/90 backdrop-blur-md z-[60] flex items-center justify-center p-4" 
+                    <motion.div
+                        className="fixed inset-0 bg-black/90 backdrop-blur-md z-60 flex items-center justify-center p-4"
                         onClick={closeModal}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.3 }}
                     >
-                        <motion.div 
-                            className="relative max-w-5xl w-full h-[80vh] flex items-center justify-center" 
+                        <motion.div
+                            className="relative max-w-5xl w-full h-[80vh] flex items-center justify-center"
                             onClick={(e) => e.stopPropagation()}
                             initial={{ scale: 0.9, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
@@ -118,26 +118,26 @@ export default function Gallery() {
                             transition={{ type: "spring", damping: 25, stiffness: 300 }}
                         >
                             {/* Close button */}
-                            <button 
+                            <button
                                 className="absolute -top-12 right-0 text-white hover:text-[#7E4300] transition-colors p-2 bg-white/10 rounded-full hover:bg-white"
                                 onClick={closeModal}
                                 aria-label="Close modal"
                             >
                                 <X className="w-6 h-6" />
                             </button>
-                            
+
                             {/* Previous button */}
-                            <button 
+                            <button
                                 className="absolute left-0 md:-left-15 text-white hover:text-[#7E4300] transition-colors p-3 bg-white/10 rounded-full hover:bg-white z-10"
                                 onClick={prevImage}
                                 aria-label="Previous image"
                             >
                                 <ChevronLeft className="w-6 h-6" />
                             </button>
-                            
+
                             {/* Image */}
                             <div className="relative w-full h-full rounded-xl overflow-hidden shadow-2xl bg-black">
-                                <Image 
+                                <Image
                                     src={images[selectedImageIndex].src}
                                     alt={images[selectedImageIndex].alt}
                                     fill
@@ -146,16 +146,16 @@ export default function Gallery() {
                                     priority
                                 />
                             </div>
-                            
+
                             {/* Next button */}
-                            <button 
+                            <button
                                 className="absolute right-0 md:-right-15 text-white hover:text-[#7E4300] transition-colors p-3 bg-white/10 rounded-full hover:bg-white z-10"
                                 onClick={nextImage}
                                 aria-label="Next image"
                             >
                                 <ChevronRight className="w-6 h-6" />
                             </button>
-                            
+
                             {/* Image counter */}
                             <div className="absolute -bottom-10 left-1/2 transform -translate-x-1/2 text-white/50 text-sm tracking-widest">
                                 {selectedImageIndex + 1} / {images.length}

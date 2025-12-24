@@ -14,7 +14,7 @@ export default function Hero() {
                     className="object-cover object-center opacity-40"
                     priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-[#FFF2E6]/0 via-[#FFF2E6]/50 to-[#FFF2E6]"></div>
+                <div className="absolute inset-0 bg-linear-to-b from-[#FFF2E6]/0 via-[#FFF2E6]/50 to-[#FFF2E6]"></div>
             </div>
 
             <div className="container mx-auto px-4 md:px-8 z-10 flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
@@ -103,7 +103,7 @@ export default function Hero() {
                     transition={{ duration: 1, ease: "easeOut" }}
                     className="w-full lg:w-1/2 relative flex justify-center lg:justify-end"
                 >
-                    <div className="relative w-[300px] md:w-[400px] lg:w-[500px] aspect-[3/4]">
+                    <div className="relative w-[300px] md:w-[400px] lg:w-[500px] aspect-3/4">
                         <div className="absolute inset-0 bg-[#7E4300] rounded-[3rem] rotate-3 opacity-20 transform translate-x-4 translate-y-4"></div>
                         <Image
                             src="/svg/HomeH.svg"

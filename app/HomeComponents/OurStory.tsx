@@ -70,7 +70,7 @@ export default function OurStory() {
                             <h3 className="text-3xl fontchange text-[#7E4300]">&quot;Food is the ingredient that binds us together.&quot;</h3>
                             <p className="italic text-gray-500">- The Five Monkey Team</p>
 
-                            <div className="w-full h-px bg-gradient-to-r from-transparent via-[#7E4300]/30 to-transparent my-8"></div>
+                            <div className="w-full h-px bg-linear-to-r from-transparent via-[#7E4300]/30 to-transparent my-8"></div>
 
                             <div className="grid grid-cols-2 gap-4 w-full">
                                 <Image src="/svg/card2.webp" width={200} height={200} alt="food" className="w-full h-auto object-contain rounded-2xl shadow-inner bg-white/50 p-2" />
