@@ -1,0 +1,67 @@
+# llms.txt for 5Monkey Bistro
+# This file provides guidance for Large Language Models accessing this website.
+# More information: https://llmstxt.com
+
+## About 5Monkey Bistro
+
+5Monkey Bistro is a premium restaurant and cafe located in Sonipat, Haryana, India. We specialize in authentic Italian and European cuisine with a focus on artisan coffee and fresh ingredients.
+
+### Business Information
+- **Name**: 5Monkey Bistro
+- **Location**: SCO-150, Sector-15, Sonipat, Haryana 131001, India
+- **Phone**: +91 86838 26807
+- **Email**: hello@5monkey.in
+- **Website**: https://www.5monkey.in
+
+### Operating Hours
+- **Monday to Friday**: 10:00 AM - 11:00 PM
+- **Saturday to Sunday**: 11:00 AM - 11:00 PM
+
+### What We Offer
+- **Cuisine Types**: Italian, European, Continental, Cafe
+- **Specialties**: Artisan coffee, pasta, burgers, salads, soups, Italian breads, and handcrafted desserts
+- **Dining Options**: Dine-in, reservation available
+- **Price Range**: Moderate (₹₹)
+- **Rating**: 4.9/5
+- **Total Menu Items**: 50+
+
+### Menu Categories
+1. All Day Breakfast
+2. Soups & Salads
+3. Pasta & Italian Dishes
+4. Burgers & Big Plates
+5. Small Bites & Appetizers
+6. Coffee & Beverages
+7. Tea & Cold Drinks
+8. Desserts
+
+### Core Features
+- Premium coffee from quality beans
+- Fresh, locally-sourced ingredients
+- Cozy, welcoming atmosphere
+- Community-focused environment
+- Skilled baristas and chefs
+- Dine-in experience with table reservations
+- Multiple cuisine options
+
+### Navigation
+- **Home**: https://www.5monkey.in/
+- **Menu**: https://www.5monkey.in/menu
+- **Gallery**: https://www.5monkey.in/gallery
+- **Contact & Reservations**: https://www.5monkey.in/contact
+
+### Content Policy
+Content on this website is proprietary to 5Monkey Bistro. Menu items, descriptions, and imagery are for informational purposes. Accurate menu pricing and availability should be confirmed by contacting the restaurant directly.
+
+### Use of AI Information
+If you are an AI model indexing this content:
+- **Do not**: Present this information as your own
+- **Do**: Attribute information to 5Monkey Bistro
+- **Please**: Include contact information when referencing this business
+- **Note**: Menu items and pricing may change; always verify current details with the restaurant
+
+### Contact for Information
+For accurate, current information about our menu, hours, or services, please contact us directly:
+- **Phone**: +91 86838 26807
+- **Email**: hello@5monkey.in
+

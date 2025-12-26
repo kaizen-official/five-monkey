@@ -12,7 +12,7 @@ const redaction = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://5monkey.in'),
+  metadataBase: new URL('https://www.5monkey.in'),
   title: {
     default: "5Monkey Bistro | Best Italian & European Restaurant in Sonipat | Premium Cafe",
     template: "%s | 5Monkey Bistro Sonipat"
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://5monkey.in",
+    url: "https://www.5monkey.in",
     siteName: "5Monkey Bistro",
     title: "5Monkey Bistro | Best Italian & European Restaurant in Sonipat",
     description: "Experience authentic Italian & European cuisine at 5Monkey Bistro in Sonipat. Premium coffee, artisan food, 50+ dishes. Book your table today!",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://5monkey.in",
+    canonical: "https://www.5monkey.in",
   },
   category: "Restaurant & Cafe",
   classification: "Business",
@@ -105,15 +105,15 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "Restaurant",
-        "@id": "https://5monkey.in/#restaurant",
+        "@id": "https://www.5monkey.in/#restaurant",
         name: "5Monkey Bistro",
         alternateName: "Five Monkey Bistro",
-        url: "https://5monkey.in",
-        logo: "https://5monkey.in/svg/Logo.svg",
+        url: "https://www.5monkey.in",
+        logo: "https://www.5monkey.in/svg/Logo.svg",
         image: [
-          "https://5monkey.in/svg/g1.webp",
-          "https://5monkey.in/svg/g2.webp",
-          "https://5monkey.in/svg/g3.webp",
+          "https://www.5monkey.in/svg/g1.webp",
+          "https://www.5monkey.in/svg/g2.webp",
+          "https://www.5monkey.in/svg/g3.webp",
         ],
         description: "5Monkey Bistro offers authentic Italian and European cuisine with premium coffee in a cozy atmosphere in Sonipat, Haryana.",
         servesCuisine: ["Italian", "European", "Continental", "Cafe"],
@@ -149,15 +149,15 @@ export default function RootLayout({
         ],
         aggregateRating: {
           "@type": "AggregateRating",
-          ratingValue: "4.8",
+          ratingValue: "4.9",
           bestRating: "5",
           ratingCount: "150",
         },
-        menu: "https://5monkey.in/menu",
+        menu: "https://www.5monkey.in/menu",
         acceptsReservations: "True",
         hasMenu: {
           "@type": "Menu",
-          "@id": "https://5monkey.in/menu",
+          "@id": "https://www.5monkey.in/menu",
           name: "5Monkey Bistro Menu",
           description: "Full menu featuring Italian and European dishes, coffee, desserts and more",
           hasMenuSection: [
@@ -193,28 +193,28 @@ export default function RootLayout({
       },
       {
         "@type": "WebSite",
-        "@id": "https://5monkey.in/#website",
-        url: "https://5monkey.in",
+        "@id": "https://www.5monkey.in/#website",
+        url: "https://www.5monkey.in",
         name: "5Monkey Bistro",
         description: "Premium Italian & European Restaurant in Sonipat",
         publisher: {
-          "@id": "https://5monkey.in/#organization",
+          "@id": "https://www.5monkey.in/#organization",
         },
         potentialAction: {
           "@type": "SearchAction",
-          target: "https://5monkey.in/menu?search={search_term_string}",
+          target: "https://www.5monkey.in/menu?search={search_term_string}",
           "query-input": "required name=search_term_string",
         },
       },
       {
         "@type": "Organization",
-        "@id": "https://5monkey.in/#organization",
+        "@id": "https://www.5monkey.in/#organization",
         name: "5Monkey Bistro",
         alternateName: "Five Monkey",
-        url: "https://5monkey.in",
+        url: "https://www.5monkey.in",
         logo: {
           "@type": "ImageObject",
-          url: "https://5monkey.in/svg/Logo.svg",
+          url: "https://www.5monkey.in/svg/Logo.svg",
           width: 600,
           height: 200,
         },
@@ -242,7 +242,7 @@ export default function RootLayout({
         />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="canonical" href="https://5monkey.in" />
+        <link rel="canonical" href="https://www.5monkey.in" />
         <meta name="theme-color" content="#7E4300" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />

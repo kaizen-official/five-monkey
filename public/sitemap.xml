@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.5monkey.in/</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.5monkey.in/svg/Logo.svg</image:loc>
+      <image:title>5Monkey Bistro Logo</image:title>
+    </image:image>
+  </url>
+
+  <!-- Menu Pages -->
+  <url>
+    <loc>https://www.5monkey.in/menu</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.5monkey.in/menu/food</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.5monkey.in/menu/drinks</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.5monkey.in/menu/desserts</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Gallery Page -->
+  <url>
+    <loc>https://www.5monkey.in/gallery</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>bi-weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.5monkey.in/svg/g1.webp</image:loc>
+      <image:title>5Monkey Bistro Gallery - Image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.5monkey.in/svg/g2.webp</image:loc>
+      <image:title>5Monkey Bistro Gallery - Image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.5monkey.in/svg/g3.webp</image:loc>
+      <image:title>5Monkey Bistro Gallery - Image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.5monkey.in/svg/g4.webp</image:loc>
+      <image:title>5Monkey Bistro Gallery - Image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.5monkey.in/svg/g5.webp</image:loc>
+      <image:title>5Monkey Bistro Gallery - Image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.5monkey.in/svg/g6.webp</image:loc>
+      <image:title>5Monkey Bistro Gallery - Image 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.5monkey.in/svg/g7.webp</image:loc>
+      <image:title>5Monkey Bistro Gallery - Image 7</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact & Reservations Page -->
+  <url>
+    <loc>https://www.5monkey.in/contact</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Home Section Anchors (for better indexing) -->
+  <url>
+    <loc>https://www.5monkey.in/#OurStory</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

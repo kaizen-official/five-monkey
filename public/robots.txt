@@ -1,0 +1,64 @@
+# Robots.txt for 5Monkey Bistro
+# https://www.5monkey.in/robots.txt
+
+User-agent: *
+Allow: /
+Allow: /menu
+Allow: /menu/food
+Allow: /menu/drinks
+Allow: /menu/desserts
+Allow: /gallery
+Allow: /contact
+Disallow: /admin
+Disallow: /*.json
+Disallow: /?*
+Disallow: /*?*utm_*
+Disallow: /*?*fbclid=
+Disallow: /*?*gclid=
+Disallow: /.git
+Disallow: /node_modules
+
+# Specific crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# AI/LLM Crawlers
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap
+Sitemap: https://www.5monkey.in/sitemap.xml
+Sitemap: https://www.5monkey.in/sitemap-menu.xml
+
+# Search engine directives
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /

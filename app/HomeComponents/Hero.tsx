@@ -85,7 +85,7 @@ export default function Hero() {
                         </div>
                         <div className="w-px h-10 bg-[#7E4300]/20"></div>
                         <div className="flex flex-col">
-                            <span className="text-2xl font-bold text-[#7E4300]">4.8</span>
+                            <span className="text-2xl font-bold text-[#7E4300]">4.9</span>
                             <span className="text-sm">Ratings</span>
                         </div>
                         <div className="w-px h-10 bg-[#7E4300]/20"></div>
