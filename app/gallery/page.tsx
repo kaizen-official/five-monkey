@@ -16,6 +16,10 @@ export default function Gallery() {
         { src: "/svg/g5.webp", alt: "Gallery Image 5", span: "col-span-1 row-span-1" },
         { src: "/svg/g6.webp", alt: "Gallery Image 6", span: "col-span-1 md:col-span-2 row-span-1" },
         { src: "/svg/g7.webp", alt: "Gallery Image 7", span: "col-span-1 row-span-1" },
+        { src: "/svg/DSC03282.JPG", alt: "Gallery Image 8", span: "col-span-1 row-span-2" },
+        { src: "/svg/DSC03310.JPG", alt: "Gallery Image 9", span: "col-span-2 row-span-3" },
+        { src: "/svg/DSC03341.JPG", alt: "Gallery Image 10", span: "col-span-1 row-span-1" },
+        { src: "/svg/DSC03407.JPG", alt: "Gallery Image 11", span: "col-span-1 row-span-2" }
     ];
 
     const openModal = (index: number) => {
